@@ -1,9 +1,8 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 .content-block {
-    width:900px;
     background-color: white;
 }
 
@@ -19,14 +18,18 @@ body {
 }
 
 .left-content__zagolovok_main {
-    font: 16px solid black;
+    font-size: 20px;
 }
 
 .left-content__social_zaglushka {
     border: 1px dashed black;
     width: 300px;
-    margin: 20px;
+    margin: 20px 0px 20px 0px;
     height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+    font-style: italic;
 }
 
 .left-content__big-image-zone {
@@ -54,7 +57,7 @@ body {
 
 .right-content {
 display: inline-block;
-position: relative;
+width: 300px;
 }
 
 .right-content__news-block {
