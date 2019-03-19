@@ -3,42 +3,51 @@ body {
 }
 
 .content-block {
-width:900px;
-background-color: white;
+    width:900px;
+    background-color: white;
 }
 
 .left-content {
-display: inline-block;
-width:600px;
+    display: inline-block;
+    width:600px;
 }
 
 .left-content__date_normal {
-color:grey;
-font-size: 8px;
-text-align: left;
+    color:grey;
+    font-size: 8px;
+    text-align: left;
 }
 
 .left-content__zagolovok_main {
-font: 16px solid black;
+    font: 16px solid black;
 }
 
 .left-content__social_zaglushka {
-border: 1px dashed black;
-width: 300px;
+    border: 1px dashed black;
+    width: 300px;
 }
 
 .left-content__big-image-zone {
-text-align: right;
+    text-align: right;
 }
 
 .left-content__main-text_normal {
-font-size: 12px;
-color: gray;
-text-align: left;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
 }
 
 .left-content__inner-zone {
+    font-size: 10px;
+}
 
+.left-content__inner-zone_zagolovok-1 {
+    font-weight: normal;
+    font-variant: initial;
+}
+
+.left-content__inner-zone left-content__inner-zone_zagolovok-2 {
+    font-weight: bold;
 }
 
 .right-content {
