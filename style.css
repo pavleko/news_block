@@ -1,32 +1,50 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .content-block {
 width:900px;
 background-color: white;
 }
+
 .left-content {
+display: inline-block;
 width:600px;
 }
+
 .left-content__date_normal {
 color:grey;
 font-size: 8px;
+text-align: left;
 }
+
 .left-content__zagolovok_main {
-
+font: 16px solid black;
 }
+
 .left-content__social_zaglushka {
-
+border: 1px dashed black;
+width: 300px;
 }
+
 .left-content__big-image-zone {
-
+text-align: right;
 }
+
 .left-content__main-text_normal {
-
+font-size: 12px;
+color: gray;
+text-align: left;
 }
+
 .left-content__inner-zone {
 
 }
-.right-content {
 
+.right-content {
+display: inline-block;
 }
+
 .right-content__news-block {
 
 }
