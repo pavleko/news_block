@@ -25,6 +25,8 @@ body {
 .left-content__social_zaglushka {
     border: 1px dashed black;
     width: 300px;
+    margin: 20px;
+    height: 30px;
 }
 
 .left-content__big-image-zone {
@@ -52,6 +54,7 @@ body {
 
 .right-content {
 display: inline-block;
+position: relative;
 }
 
 .right-content__news-block {
