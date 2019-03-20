@@ -51,15 +51,35 @@ body {
     font-variant: initial;
 }
 
-.left-content__inner-zone left-content__inner-zone_zagolovok-2 {
+.left-content__inner-zone_zagolovok-2 {
     font-weight: bold;
 }
 
 .right-content {
-display: inline-block;
-width: 300px;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    border-top: 2px red solid;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
 
-.right-content__news-block {
+.right-content__zagolovok_1 {
+    font-size:14px;
+    height: 30px;
+    background-color: lightgray;
+    text-align: left;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-top: 0px;
+    padding: 10px 20px 0px 10px;
+}
+
+.right-content__spisok_light {
+    list-style-type: none;
+}
+
+.right-content__spisok_1 {
 
 }
