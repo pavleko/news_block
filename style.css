@@ -78,8 +78,9 @@ body {
 
 .right-content__spisok_light {
     list-style-type: none;
-}
+    padding: 0px 10px 0px 10px;
+ }
 
-.right-content__spisok_1 {
-
+.right-content__points_1 {
+    margin: 50px 0px 40px 0px;
 }
