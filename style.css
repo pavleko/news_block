@@ -44,6 +44,10 @@ body {
 
 .left-content__inner-zone {
     font-size: 10px;
+    width: 250px;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
 
 .left-content__inner-zone_zagolovok-1 {
@@ -59,13 +63,13 @@ body {
     display: inline-block;
     width: 300px;
     vertical-align: top;
-    border-top: 2px red solid;
+    border-top: 2px rgb(192, 13, 13) solid;
     border-left: 1px solid lightgray;
     border-right: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
 }
 
-.right-content__zagolovok_1 {
+.right-content__zagolovok_novosti {
     font-size:14px;
     height: 30px;
     background-color: lightgray;
@@ -73,14 +77,28 @@ body {
     vertical-align: middle;
     text-transform: uppercase;
     margin-top: 0px;
+    margin-bottom: 5px;
     padding: 10px 20px 0px 10px;
 }
 
 .right-content__spisok_light {
+    font-size:12px;
     list-style-type: none;
     padding: 0px 10px 0px 10px;
+    margin: 5px 5px;
  }
 
-.right-content__points_1 {
-    margin: 50px 0px 40px 0px;
+.right-content__points_light-1 {
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.right-content__points_light-2 {
+    font-size: 9px;
+    color:rgb(192, 13, 13);
+    padding: 10px 0px 10px 0px;
+}
+
+.right-content__points_light-3 {
+    padding: 10px 0px 10px 0px;
 }
