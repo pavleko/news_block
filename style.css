@@ -33,7 +33,7 @@ body {
 }
 
 .left-content__big-image-zone {
-    text-align: right;
+
 }
 
 .left-content__main-text_normal {
@@ -43,9 +43,10 @@ body {
 }
 
 .left-content__inner-zone {
-    font-size: 10px;
+    font-size: 11px;
     float: left;
     width: 250px;
+    
 }
 
 .left-content__zagolovok_zagolovok-1 {
