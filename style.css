@@ -59,8 +59,14 @@ body {
 }
 
 .left-content__innerdata_za {
-
+    padding-left: 10px;
 }
+
+.left-content__innerdata_za-1 {
+    font-size: 9px;
+    color:rgb(192, 13, 13);
+}
+
 
 .left-content__small-image-zone_active-image {
     padding: 0px 10px 20px 10px;
